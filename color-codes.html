@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My site</title>
+    <link rel="stylesheet" href="./style.css"> 
+<style>
+  /* rgb color codes */
+#rgb{
+    color: rgb(200, 100, 20);
+}
+  /* rgba color codes */
+#rgba{
+    color: rgba(250, 100, 20, 0.4);
+}
+  /* hsl color codes */
+#hsl{
+    color: hsl(200, 100%, 50%);
+}
+   /* hsla color codes */
+#hsla{
+    color: hsla(230, 100%, 50%, 0.5);
+}
+   /* hex color codes */
+#hex{
+    color: #ffff00
+}
+</style>
+  
+</head>
+<body>
+    <!-- 
+        in css colors can be specified using
+        1. predefined color names
+               PREDEFINED COLOR NAMES
+                  1. Modern browsers support 140 named colors
+                  2. https://htmlcolorcodes.com/color-names/
+        2. RGB
+        3. RGBA
+        4. HEX
+        5. HSL
+        6. HSLA
+    -->
+    <p id="rgb">paragraph1</p>
+      <!-- 
+           1. rgb(red, green, blue)
+           2. color value between 0 and 255
+           3. black: rgb(0, 0, 0)
+           4. white: rgb(255, 255, 255)
+           5. red: rgb(255, 0, 0)
+           6. green: rgb(0, 255, 0)
+           7. blue: rgb(0, 0, 255)
+
+       -->
+    <p id="rgba">paragraph2</p>
+        <!-- 
+            1. rgba(red, green, blue, alpha)
+            2. alpha parameter is number between 0.0(fully transparent)and 1.0(not transparent at all)
+            3. rgba(255, 99, 71, 0.5)
+         -->
+    <p id="hsl">paragraph3</p>
+          <!-- 
+            1. hsl(hue, situaration, lightness)
+            2. hue, saturation, and lightness(HSL) 
+            3. Hue is a degree on the color wheel from 0 to 360.0 is red 120 is green, and 240 is blue.
+            4. saturation is a percentage value, 0% means shade of gray, and 100% is the full color.
+            5. Lightness is also a percentage, 0% is black, 50% is neither light or dark, 100% is white.
+            6. RED: hsl(0, 100%, 50%) 
+           -->
+    <p id="hsla">paragraph4</p>
+        <!-- 
+            1. hsla(hue, saturation, lightness, alpha)
+            2. alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent all)
+            3. hsla(0, 100%, 50%, 0.5)
+         -->
+    <p id="hex">paragraph4</p>
+        <!-- 
+            1. #rrggbb
+            2. rr(red), gg(green), bb(blue)
+            3. hexadecimal values between 00 and ff (same as decimal 0-255)
+            4. red: #ff0000
+            4. black: #000000
+            4. white: #ffffff
+        -->
+
+</body>
+</html>
